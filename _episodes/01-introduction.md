@@ -5,7 +5,7 @@ exercises: 0
 questions:
 - "Key question"
 objectives:
-- "First objective."
+- "Understand what pshell is."
 keypoints:
 - "First key point."
 ---
