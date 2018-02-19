@@ -1,7 +1,7 @@
 ---
 title: "Moving and managing data on the command line"
-teaching: 15
-exercises: 4
+teaching: 5
+exercises: 10
 questions:
 - "How do I move data around?"
 objectives:
@@ -11,7 +11,7 @@ keypoints:
 - "put is the command used to upload data from your local machine to Pawsey Data Storage"
 ---
 
-#Exercise 1 - pshell with Pawsey account#
+##Exercise 1 - pshell with Pawsey account##
 Perform the following:
 
 run pshell and login to the mediaflux server,
@@ -20,7 +20,7 @@ display your current working directory on the server,
 display your local working directory
 list the contents of the remote directory on the server.
 
-#Solution to Exercise 1#
+##Solution to Exercise 1##
 iblis:~> python pshell
 Reading default config from bundle...
  === pshell: type 'help' for a list of commands ===
@@ -45,7 +45,7 @@ pawsey:/projects>ls
 [Folder] DMF-TEST
 [Folder] Data Team
 
-#Exercise 2 - downloading data#
+##Exercise 2 - downloading data##
 
 Perform the following:
 
@@ -53,7 +53,7 @@ Navigate to the /projects/Data Team folder,
 download the testfiles folder to your local machine,
 check the download by listing the files locally.
 
-#Solution to exercise 2#
+##Solution to exercise 2##
 pawsey:/projects>cd Data Team/
 Remote: /projects/Data Team
 pawsey:/projects/Data Team>get testfiles
@@ -68,7 +68,7 @@ Local folder: /Users/sean/testfiles
  19.09 KB | i000768.jpg
 etc
 
-#Exercise 3 - uploading data#
+##Exercise 3 - uploading data##
 Perform the following:
 
 Navigate to the /projects/Demo folder
@@ -77,7 +77,7 @@ change into this unique folder and confirm it is your current working directory
 upload the files you downloaded in the previous exercise
 check the upload by listing the remote files.
 
-#Solution to exercise 3#
+##Solution to exercise 3##
 iblis:~> python pshell
 Reading config [/Users/sean/.mf_config]
  === pshell: type 'help' for a list of commands ===
@@ -99,14 +99,14 @@ pawsey:/projects/Demo/sean>ls
  69776132   | online  |  17.21 KB | i000767.jpg
 etc
 
-#Exercise 4 - deleting data#
+##Exercise 4 - deleting data##
 Perform the following:
 
 Navigate to the folder where you uploaded files in the previous exercise,
 use a filter to display files with 077 in the filename,
 delete files that match that pattern.
 
-#Solution exercise 4#
+##Solution exercise 4##
 iblis:~> python pshell
 Reading config [/Users/sean/.mf_config]
  === pshell: type 'help' for a list of commands ===

@@ -13,16 +13,16 @@ keypoints:
 - "pshell is a tool (written in Python 2.7) for interacting with the storage system"
 - "Pawsey also maintains web based access for light workloads and data sharing"
 ---
-Pshell is a python command line client that implements a subset of the standard SFTP commands. 
+Pshell is a python command line client that implements a subset of the standard SFTP commands.
 
-Remote filesystem commands (pawsey):
+Remote filesystem commands [pawsey]:
 cd - Change the current remote folder
 ls - List files stored on the remote server         
 pwd - Display the current remote folder
 mkdir - Create a remote folder
 rmdir - Remove a remote folder
 
-Local filesystem commands (your computer):
+Local filesystem commands [your computer]:
 lcd - Change local folder
 lls - List files stored on the local server
 lpwd - Display the current local folder
