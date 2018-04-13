@@ -31,6 +31,8 @@ Pshell is a python command line client that implements a subset of the standard 
 - get (Download remote files to the current local folder)
 - put (Upload local files or folders to the current folder on the remote server)
 
+---
+
 For further information type 'help' for a list of commands and then type help <topic>
 
 ~~~
@@ -44,6 +46,6 @@ e.g. pawsey:/projects> help compare
 Compares a local and a remote folder and reports any differences
 The local and remote folders must have the same name and appear in the current local and remote working directories
 
-Usage: compare <folder>
+Usage: compare [folder name]
 
-Examples: compare myfolder
+
