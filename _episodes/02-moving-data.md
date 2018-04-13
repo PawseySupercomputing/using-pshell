@@ -50,7 +50,7 @@ pawsey:/projects>ls
 [Folder] DMF-TEST
 [Folder] Data Team
 ```
-
+---
 **Exercise 2 - downloading data**
 
 Perform the following:
@@ -76,7 +76,7 @@ Local folder: /Users/sean/testfiles
  19.09 KB | i000768.jpg
 etc
 ```
-
+---
 **Exercise 3 - uploading data**
 
 Perform the following:
@@ -111,7 +111,7 @@ pawsey:/projects/Demo/sean>ls
  69776132   | online  |  17.21 KB | i000767.jpg
 etc
 ```
-
+---
 **Exercise 4 - deleting data**
 
 Perform the following:
@@ -138,9 +138,11 @@ pawsey:/projects/Demo/sean>rm *077*
 Remove 4 files: (y/n) y
 ```
 
+-----
+
 **Using pshell on Pawsey HPC**
 
-The following provides examples of pshell scripting.  For example, creating slurm script 
+The following link provides examples of pshell scripting to run on Pawsey HPC.  For example, creating a slurm script 
 for submitting a data transfer job using pshell on magnus 
 
 ```https://support.pawsey.org.au/documentation/display/US/pshell+scripting+and+HPC```
