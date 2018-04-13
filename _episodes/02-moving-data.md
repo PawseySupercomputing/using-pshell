@@ -23,7 +23,7 @@ list the contents of the remote directory on the server.
 
 **Solution to Exercise 1**
 ```
-iblis:~> python pshell
+iblis:~> ./pshell
 Reading default config from bundle...
  === pshell: type 'help' for a list of commands ===
 pawsey:offline>login
@@ -89,7 +89,7 @@ check the upload by listing the remote files.
 
 **Solution to exercise 3**
 ```
-iblis:~> python pshell
+iblis:~> ./pshell
 Reading config [/Users/sean/.mf_config]
  === pshell: type 'help' for a list of commands ===
 pawsey:/projects>cd Demo/
@@ -137,3 +137,10 @@ Page 1 of 1, file filter ['*077*']: q
 pawsey:/projects/Demo/sean>rm *077*
 Remove 4 files: (y/n) y
 ```
+
+**Using pshell on Pawsey HPC**
+
+The following provides examples of pshell scripting.  For example, creating slurm script 
+for submitting a data transfer job using pshell on magnus 
+
+```https://support.pawsey.org.au/documentation/display/US/pshell+scripting+and+HPC```
