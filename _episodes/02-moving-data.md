@@ -145,4 +145,4 @@ Remove 4 files: (y/n) y
 The following link provides examples of pshell scripting to run on Pawsey HPC.  For example, creating a slurm script 
 for submitting a data transfer job using pshell on magnus 
 
-```https://support.pawsey.org.au/documentation/display/US/pshell+scripting+and+HPC```
+```[pshell scripting](https://support.pawsey.org.au/documentation/display/US/pshell+scripting+and+HPC)```
